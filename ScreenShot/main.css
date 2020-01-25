@@ -1,0 +1,131 @@
+body
+{
+    width:100%;
+    font-family:monospace;
+    background-image:linear-gradient(70deg,lightblue,lightpink);
+}
+
+h1
+{
+    padding: 25px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+.container
+{
+
+    margin: auto;
+    height:410px;
+    width:360px;
+    box-shadow: 6px 8px 2px grey;
+    background:white;
+    border-radius: 10px;
+}
+
+.output
+{
+    position: relative;
+    top:20px;
+    text-align:center;
+    
+}
+
+input
+
+{
+         text-align: end;
+    padding:8px;
+    font-size: 25px;
+}
+
+#display
+{
+    outline:none;
+    width:280px;
+    height:40px;
+    background:#f1f1f1;
+    border-radius:10px;
+    border-color: none;
+    border: none;
+}
+
+.keyboard
+{
+    width:330px;
+    position: relative;
+    top:40px;
+    margin:10px;
+    text-align: center;
+}
+
+button
+{
+    font-family: sans-serif;
+    font-weight:bolder;
+    font-size: 22px;
+    color"black";
+    background: white;
+    border:none;
+    margin:6px;
+    padding:12px;
+    outline:none;
+    border-radius:50%;
+    width:49px;
+    height:45px;
+}
+
+button:nth-child(1)
+{
+    
+    background: lightgrey;
+}
+
+button:nth-child(2)
+{
+    font-weight: 550;
+    background: lightgrey;
+}
+
+button:nth-child(3)
+{
+    background:lightgrey;
+}
+
+button:nth-child(4)
+{
+    background:lightgreen;
+}
+button:nth-child(8)
+{
+    background: aqua;
+}
+
+button:nth-child(12)
+{
+    padding: 0px;
+    font-size: 30px;
+    font-family: monospace;
+    background: orange;
+}
+
+button:nth-child(16)
+{
+    background: pink;
+    font-size:25px;
+}
+
+button:nth-child(20)
+{
+    background: yellow;
+}
+
+#clear
+{
+    margin-left:22px;
+    color:black;
+    border-radius:5px; 
+    height:46px;
+    width:100px;
+}
