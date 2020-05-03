@@ -1,6 +1,6 @@
 # UI-Calculator
 Simple Calculator With Clean Ui.
 <br>
-View live here - https://code-recursion.github.io/UI-Calculator
+<a href="https://code-recursion.github.io/UI-Calculator">view live version</a>
 ## `Screen Shot`
 <img src="ScreenShot/C.JPG">
