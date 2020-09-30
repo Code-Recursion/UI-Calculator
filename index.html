@@ -2,8 +2,7 @@
 <html lang="en">
 
 <head>
-
-     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale = 1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
     <title>Calculator</title>
@@ -11,18 +10,11 @@
 </head>
 
 <body>
-
     <h1>Calculate Anything</h1>
-
     <div class="container">
-
-
         <div class="output">
-
-            <input maxlength="20" id="display" type="text" name="answer" autofocus>
-
+            <input readonly maxlength="20" id="display" type="text" name="answer" autofocus>
         </div>
-
         <div class="keyboard">
 
             <button id="CE" onclick = "document.getElementById('display').value = display.value.slice(0,-1)">CE</button>
@@ -59,22 +51,18 @@
 
             <button id="multiply" onclick="document.getElementById('display').value +='*'">*</button>
 
-            <button></button>
+            <button id="decimal" onclick="document.getElementById('display').value +='.'">.</button>
 
             <button id="zero" onclick="document.getElementById('display').value +='0'">0</button>
 
-            <button></button>
+            <button  onclick="document.getElementById('display').value +='00'">00</button>
 
             <button id="equal" type="submit"
-                onclick="document.getElementById('display').value = eval(display.value)">=</button>
-
+                onclick="calculate()">=</button>
         </div>
     </div>
 
-    <script type="text/javascript" src="script.js">
-
-
-    </script>
+    <script type="text/javascript" src="script.js"></script>
 
 </body>
 
