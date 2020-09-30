@@ -3,10 +3,12 @@
 
 <head>
 
-     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale = 1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>Calculator</title>
+
     <link type="text/css" href="main.css" rel="stylesheet">
 </head>
 
@@ -25,7 +27,7 @@
 
         <div class="keyboard">
 
-            <button id="CE" onclick = "document.getElementById('display').value = display.value.slice(0,-1)">CE</button>
+            <button id="CE" onclick="document.getElementById('display').value = display.value.slice(0,-1)">CE</button>
 
             <button id="clear" onclick="document.getElementById('display').value =''">C</button>
 
@@ -33,7 +35,14 @@
 
             <button id="mod" onclick="document.getElementById('display').value += '%'">%</button>
 
-            
+            <!-- <button id="one" onclick="document.getElementById('display').value +='sin '">sin</button>
+
+            <button id="one" onclick="document.getElementById('display').value +='sin '">sin</button>
+
+            <button id="one" onclick="document.getElementById('display').value +='cos '">cos</button>
+
+            <button id="one" onclick="document.getElementById('display').value +='tan '">tan</button> -->
+
             <button id="one" onclick="document.getElementById('display').value +='1'">1</button>
 
             <button id="two" onclick="document.getElementById('display').value +='2'">2</button>
@@ -46,15 +55,15 @@
             <button id="four" onclick="document.getElementById('display').value +='4'">4</button>
 
             <button id="five" onclick="document.getElementById('display').value +='5'">5</button>
-            
+
             <button id="six" onclick="document.getElementById('display').value +='6'">6</button>
-            
+
             <button id="minus" onclick="document.getElementById('display').value +='-'">-</button>
-            
+
             <button id="seven" onclick="document.getElementById('display').value +='7'">7</button>
 
             <button id="eight" onclick="document.getElementById('display').value +='8'">8</button>
-            
+
             <button id="nine" onclick="document.getElementById('display').value +='9'">9</button>
 
             <button id="multiply" onclick="document.getElementById('display').value +='*'">*</button>
@@ -65,15 +74,12 @@
 
             <button></button>
 
-            <button id="equal" type="submit"
-                onclick="document.getElementById('display').value = eval(display.value)">=</button>
+            <button id="equal" type="submit" onclick="document.getElementById('display').value = eval(display.value)">=</button>
 
         </div>
     </div>
 
     <script type="text/javascript" src="script.js">
-
-
     </script>
 
 </body>
