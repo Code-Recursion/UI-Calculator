@@ -8,9 +8,12 @@ html, body {
     height: 100%;
     width:100%;
 }
+
+/* used white colour for foreground so that disabled button is not visible to the screen */
 button:disabled{
     color: #f1f1f1;
 }
+/* made the hover background color to white so the annoying hover in empty space is removed */
 
 button:disabled:hover{
     color:white;
