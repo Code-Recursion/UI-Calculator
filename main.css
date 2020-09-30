@@ -8,6 +8,15 @@ html, body {
     height: 100%;
     width:100%;
 }
+button:disabled{
+    color: #f1f1f1;
+}
+
+button:disabled:hover{
+    color:white;
+    background-color:white;
+}
+
 
 body {
     font-family: monospace;
@@ -65,7 +74,7 @@ button {
     font-family: sans-serif;
     font-weight: bolder;
     font-size: 22px;
-    color"black";
+    color:"black";
     background: white;
     border: none;
     margin: 6px;
