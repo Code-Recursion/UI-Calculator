@@ -8,5 +8,5 @@ Simple Calculator With Clean UI.
 ### How to contribute?
 [1] Write a proper and meaningful commit message.                                                                                    
 [2] Share screen shots of what is changed.                                                                                  
-[3] Explain the in brief what is changed by you?.                                                                                                  
+[3] Explain the in brief what is changed by you?                                                                                                  
 [4] Mention the issue number on commit message.                                                                                                                
