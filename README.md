@@ -6,6 +6,7 @@ Simple Calculator With Clean UI.
 <img src="ScreenShot/C.JPG">
 
 ### How to contribute?
-1) make the commit propery and mention the issue number.
+1) Write a proper and meaningful commit message.
 2) Share screen shots of what is changed.
 3) Explain the in brief what is changed by you?.
+4) mention the issue number on commit message.
