@@ -1,4 +1,4 @@
-# UI-Calculator
+# UI-Basic calculator
 Simple Calculator With Clean UI.
 <br>
 <a href="https://code-recursion.github.io/UI-Calculator">view live version</a>
