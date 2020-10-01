@@ -65,7 +65,7 @@ button {
     font-family: sans-serif;
     font-weight: bolder;
     font-size: 22px;
-    color"black";
+    color:"black";
     background: white;
     border: none;
     margin: 6px;
@@ -117,3 +117,9 @@ button:hover {
     background: rgba(230, 108, 230, 0.616);
 }
 
+button:nth-child(17):hover {
+    display: none;
+}
+button:nth-child(19):hover {
+    display: none;
+}
