@@ -13,3 +13,16 @@ input.addEventListener("keyup", function(event) {
       document.getElementById("equal").click();
   }
 });
+
+// Function to calculate the result
+function calculate(operation) {
+  
+  let result = eval(operation);
+  
+  if ( result === 0 || isFinite(result) && Boolean(result) ) {
+    document.getElementById('display').value = result;
+  } else {
+    document.getElementById('display').value = 'Invalid operation';
+  }
+
+} 
