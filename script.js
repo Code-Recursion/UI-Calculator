@@ -16,9 +16,11 @@ input.addEventListener("keyup", function(event) {
 
 // Function to calculate the result
 function calculate(operation) {
-  
-  let result = eval(operation);
-  
+  let result;
+  try {
+    result = eval(operation);  
+  } catch (error) {}
+
   if ( result === 0 || isFinite(result) && Boolean(result) ) {
     document.getElementById('display').value = result;
   } else {
