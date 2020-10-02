@@ -13,3 +13,14 @@ input.addEventListener("keyup", function(event) {
       document.getElementById("equal").click();
   }
 });
+
+//COde for handling equal to button
+function handlesubmit(value) {
+  let split = value.split('/')
+  if(split[split.length -1] == "0"){
+    document.getElementById('display').value ='' //This will clear out the display
+    return alert("Invalid operation! Cannot Divide by zero")   //This shows an error prompt
+  }
+
+  document.getElementById('display').value = eval(value)
+}
