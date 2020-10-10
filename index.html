@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale = 1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Calculator</title>
+
+  <link type="text/css" href="main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1>Calculate Anything</h1>
+
+  <div class="container">
+
+
+    <div class="output">
+
+      <input maxlength="20" id="display" type="text" name="answer" autofocus>
+
+    </div>
+
+    <div class="keyboard">
+
+      <button id="CE" onclick="document.getElementById('display').value = display.value.slice(0,-1)">CE</button>
+
+      <button id="clear" onclick="document.getElementById('display').value =''">C</button>
+
+      <button id="div" onclick="document.getElementById('display').value += '/'">/</button>
+
+      <button id="mod" onclick="document.getElementById('display').value += '%'">%</button>
+
+      <!-- <button id="one" onclick="document.getElementById('display').value +='sin '">sin</button>
+
+            <button id="one" onclick="document.getElementById('display').value +='sin '">sin</button>
+
+            <button id="one" onclick="document.getElementById('display').value +='cos '">cos</button>
+
+            <button id="one" onclick="document.getElementById('display').value +='tan '">tan</button> -->
+
+      <button id="one" onclick="document.getElementById('display').value +='1'">1</button>
+
+      <button id="two" onclick="document.getElementById('display').value +='2'">2</button>
+
+      <button id="three" onclick="document.getElementById('display').value +='3'">3</button>
+
+      <button id="add" onclick="document.getElementById('display').value +='+'">+</button>
+
+
+      <button id="four" onclick="document.getElementById('display').value +='4'">4</button>
+
+      <button id="five" onclick="document.getElementById('display').value +='5'">5</button>
+
+      <button id="six" onclick="document.getElementById('display').value +='6'">6</button>
+
+      <button id="minus" onclick="document.getElementById('display').value +='-'">-</button>
+
+      <button id="seven" onclick="document.getElementById('display').value +='7'">7</button>
+
+      <button id="eight" onclick="document.getElementById('display').value +='8'">8</button>
+
+      <button id="nine" onclick="document.getElementById('display').value +='9'">9</button>
+
+      <button id="multiply" onclick="document.getElementById('display').value +='*'">*</button>
+      <!-- disableb the button so that the hover effect to be changed for disableb buttons -->
+      <button disabled class="noHover"></button>
+
+      <button id="zero" onclick="document.getElementById('display').value +='0'">0</button>
+
+      <button disabled class="noHover"></button>
+
+      <button id="equal" type="submit" onclick="calculate(display.value)">=</button>
+
+    </div>
+  </div>
+
+  <script type="text/javascript" src="script.js">
+  </script>
+
+</body>
+
+</html>
