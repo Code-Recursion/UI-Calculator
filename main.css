@@ -1,10 +1,10 @@
 html, body {
-    
- -webkit-user-select: none; /* Safari */        
+
+ -webkit-user-select: none; /* Safari */
  -moz-user-select: none; /* Firefox */
  -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
-    
+
     height: 100%;
     width:100%;
     padding: 0;
@@ -68,6 +68,7 @@ input {
     border-radius: 10px;
     border-color: none;
     border: none;
+    
 }
 
 .keyboard {
@@ -82,7 +83,7 @@ button {
     font-family: sans-serif;
     font-weight: bolder;
     font-size: 22px;
-    color:"black";
+    color: "black";
     background: white;
     border: none;
     margin: 6px;
@@ -95,23 +96,51 @@ button {
 
 button:nth-child(1) {
     background: lightgrey;
+    outline: none;
 }
 
 button:nth-child(2) {
     font-weight: 550;
     background: lightgrey;
+    outline: none;
 }
 
 button:nth-child(3) {
     background: lightgrey;
+        outline: none;
 }
 
 button:nth-child(4) {
     background: lightgreen;
+        outline: none;
 }
+button:nth-child(5) {
 
+        outline: none;
+}
+button:nth-child(6) {
+
+        outline: none;
+}
+button:nth-child(7) {
+
+        outline: none;
+}
 button:nth-child(8) {
     background: aqua;
+        outline: none;
+}
+button:nth-child(9) {
+
+        outline: none;
+}
+button:nth-child(10) {
+
+        outline: none;
+}
+button:nth-child(11) {
+
+        outline: none;
 }
 
 button:nth-child(12) {
@@ -119,15 +148,32 @@ button:nth-child(12) {
     font-size: 30px;
     font-family: monospace;
     background: orange;
+        outline: none;
 }
+button:nth-child(13) {
 
+        outline: none;
+}
+button:nth-child(14) {
+
+        outline: none;
+}
+button:nth-child(15) {
+
+        outline: none;
+}
 button:nth-child(16) {
     background: pink;
     font-size: 25px;
+        outline: none;
 }
+button:nth-child(18) {
 
+        outline: none;
+}
 button:nth-child(20) {
     background: yellow;
+        outline: none;
 }
 
 button:hover {
