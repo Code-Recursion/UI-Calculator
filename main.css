@@ -77,6 +77,10 @@ input {
     margin: 10px;
     text-align: center;
 }
+ /* it Removes Outline of all Button */
+*:focus {
+    outline: 0 !important;
+}
 
 button {
     font-family: sans-serif;
@@ -140,3 +144,4 @@ button:nth-child(17):hover {
 button:nth-child(19):hover {
     display: none;
 }
+
