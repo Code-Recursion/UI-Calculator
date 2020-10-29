@@ -71,10 +71,8 @@ input {
 }
 
 .keyboard {
-    width: 330px;
     position: relative;
     top: 40px;
-    margin: 10px;
     text-align: center;
 }
 
@@ -96,6 +94,7 @@ button {
     border-radius: 50%;
     width: 49px;
     height: 45px;
+    line-height:normal;
 }
 
 button:nth-child(1) {
@@ -136,5 +135,5 @@ button:nth-child(20) {
 }
 
 button:hover {
-    background: rgba(243, 159, 243, 0.924);
+    background: rgb(247 230 236);
 }
